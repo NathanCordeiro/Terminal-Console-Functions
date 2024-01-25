@@ -14,4 +14,10 @@ These are a few functions I implemented in C++ to make my work easier while work
 - #### hideCursor()
   This function creates an object 'cursor' which is used to configure the appearence and visibility of the cursor. Hiding the cursor provides a more cleaner and immersive experience in terminal projects,
   being a windows console API function it is platform specific.
-   
+
+- #### CenteredOutput
+  The CenteredOutput class offers an encapsulated and reusable solution for centering and printing text on the terminal. It encapsulates the logic for cursor positioning and printing, promoting a modular and 
+  maintainable design. The templated print function allows versatile output of different value types, enhancing readability and expressiveness. The class can be easily modified without affecting the rest of 
+  the code, providing adaptability for future enhancements. By separating concerns and providing a fluent interface, the class promotes a structured and extensible approach for console output management.
+
+  This approach provides a more precise control over positioning the text in complex layouts and dynamic scenarios.
