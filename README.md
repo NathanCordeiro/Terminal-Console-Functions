@@ -21,3 +21,6 @@ These are a few functions I implemented in C++ to make my work easier while work
   the code, providing adaptability for future enhancements. By separating concerns and providing a fluent interface, the class promotes a structured and extensible approach for console output management.
 
   This approach provides a more precise control over positioning the text in complex layouts and dynamic scenarios.
+
+- #### centerMovingText()
+  The centerMovingText function facilitates the display of scrolling text in the center of the console window. It intelligently calculates the optimal starting position for centering based on the console screen width and the length of the input text. By introducing a specified time delay between character displays, the function creates a smooth scrolling effect. The use of leading spaces ensures the centered alignment of the scrolling text. This function enhances the visual appeal of console applications, providing a dynamic and engaging user experience.
